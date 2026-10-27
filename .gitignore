@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+coverage.xml
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Benchmark iteration reports (local only)
+test_iterations/
+
+# AI Agent & Planning Artifacts
+.planning/
+scratch/
+project_memory.md
+
+# Local Configuration & Settings
+settings.json
+table_to_graph_settings.json
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Machine Learning / AI Model caches
+.cache/
+*.safetensors
+*.bin
+
+graphify-out/
